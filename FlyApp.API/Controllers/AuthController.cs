@@ -1,7 +1,6 @@
 using FlyApp.API.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using AutoMapper;
 using System.Threading.Tasks;
 using FlyApp.API.Dtos;
 using System.Text;
@@ -10,6 +9,7 @@ using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using AutoMapper;
 
 namespace FlyApp.API.Controllers
 {
